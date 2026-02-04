@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Lektion1RabbitMQReceive/Lektion1RabbitMQReceive.csproj" Id="4102bc92-c880-4192-a1a0-162aa56d735a" />
+  <Project Path="Lektion1RabbitMQSend/Lektion1RabbitMQSend.csproj" />
+</Solution>
