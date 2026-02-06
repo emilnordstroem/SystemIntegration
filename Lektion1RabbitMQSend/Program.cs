@@ -13,7 +13,7 @@ await channel.QueueDeclareAsync(
 	exclusive: false,
 	autoDelete: false,
 	arguments: null
-	);
+);
 
 /*
 const string message = "Hello World!";

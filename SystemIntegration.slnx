@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="Lektion1RabbitMQReceive/Lektion1RabbitMQReceive.csproj" Id="4102bc92-c880-4192-a1a0-162aa56d735a" />
   <Project Path="Lektion1RabbitMQSend/Lektion1RabbitMQSend.csproj" />
+  <Project Path="Lektion2RabbitMQReceive/Lektion2RabbitMQReceive.csproj" Id="584dc3cf-72c6-4bee-bd6d-dac06d0a0f83" />
+  <Project Path="Lektion2RabbitMQSend/Lektion2RabbitMQSend.csproj" Id="b227bec6-2bfd-4d55-b66c-7f2e47480963" />
   <Project Path="LufthavnGateInfo/LufthavnGateInfo.csproj" Id="4a6c03d6-5547-4c8d-b59d-39c7f07f7824" />
 </Solution>
