@@ -25,7 +25,6 @@ var person = new Person("Emil", "Stoeve", 24, "emil@example.com");
 var json = JsonSerializer.Serialize(person);
 var body = Encoding.UTF8.GetBytes(json);
 
-
 await channel.BasicPublishAsync(
 	exchange: string.Empty,
 	routingKey: "hello",

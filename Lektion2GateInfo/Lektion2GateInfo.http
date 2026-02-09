@@ -1,0 +1,6 @@
+@Lektion2GateInfo_HostAddress = http://localhost:5027
+
+GET {{Lektion2GateInfo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
