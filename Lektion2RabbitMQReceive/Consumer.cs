@@ -2,7 +2,7 @@
 using RabbitMQ.Client.Events;
 using System.Text;
 
-public class Receive
+public class Consumer
 {
     static async Task Main(string[] args)
     {

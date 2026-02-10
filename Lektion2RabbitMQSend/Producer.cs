@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 
-public class Send
+public class Producer
 {
     static async Task Main(string[] args)
     {
