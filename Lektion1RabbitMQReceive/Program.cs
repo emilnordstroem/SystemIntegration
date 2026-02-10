@@ -10,10 +10,10 @@ using var channel = await connection.CreateChannelAsync();
 await channel.QueueDeclareAsync(
 	queue: "hello",
 	durable: false,
-	exclusive: false,
+	exclusive: false, 
 	autoDelete: false,
 	arguments: null
-	);
+);
 
 Console.WriteLine(" [*] Waiting for messages.");
 
@@ -32,7 +32,8 @@ consumer.ReceivedAsync += (model, ea) =>
 await channel.BasicConsumeAsync(
 	"hello",
 	autoAck: true,
-	consumer: consumer);
+	consumer: consumer
+);
 
 Console.WriteLine(" Press [enter] to exit.");
 Console.ReadLine();
