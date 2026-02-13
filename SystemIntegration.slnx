@@ -4,4 +4,7 @@
   <Project Path="Lektion2GateInfo/Lektion2GateInfo.csproj" Id="a68a5ef2-8af8-4999-85eb-c7b6490d4015" />
   <Project Path="Lektion2RabbitMQReceive/Lektion2RabbitMQReceive.csproj" Id="584dc3cf-72c6-4bee-bd6d-dac06d0a0f83" />
   <Project Path="Lektion2RabbitMQSend/Lektion2RabbitMQSend.csproj" Id="b227bec6-2bfd-4d55-b66c-7f2e47480963" />
+  <Project Path="Lektion3BlogPostAPI/Lektion3BlogPostAPI.csproj" Id="4d681de9-3cd6-4bd0-bd5c-36785f8fea88" />
+  <Project Path="Lektion3TodoAPI/Lektion3TodoAPI.csproj" Id="da2613ef-96ae-4dd7-a509-dc28e9a688bd" />
+  <Project Path="Lektion3WebAPI/Lektion3WebAPI.csproj" Id="8c9e661e-1034-4a50-9867-5f0112960bc0" />
 </Solution>

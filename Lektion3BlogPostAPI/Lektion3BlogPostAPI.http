@@ -1,0 +1,6 @@
+@Lektion3BlogPostAPI_HostAddress = http://localhost:5183
+
+GET {{Lektion3BlogPostAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

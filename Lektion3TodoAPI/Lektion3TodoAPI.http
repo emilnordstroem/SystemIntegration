@@ -1,0 +1,6 @@
+@Lektion3TodoAPI_HostAddress = http://localhost:5217
+
+GET {{Lektion3TodoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

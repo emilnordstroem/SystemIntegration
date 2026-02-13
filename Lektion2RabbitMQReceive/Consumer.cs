@@ -42,7 +42,7 @@ public class Consumer
 		};
 
 		await channel.BasicConsumeAsync(
-			"task_queue", // task_queue / gateInfo
+			queue: "task_queue", // task_queue / gateInfo
 			autoAck: false,
 			consumer: consumer);
 
