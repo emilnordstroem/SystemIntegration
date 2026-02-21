@@ -1,7 +1,6 @@
-using Lektion3WebAPI.Models;
 using Scalar.AspNetCore;
 
-namespace Lektion3WebAPI
+namespace Lektion4SoenderhoejTaxi
 {
 	public class Program
 	{
@@ -14,8 +13,6 @@ namespace Lektion3WebAPI
 			builder.Services.AddControllers();
 			// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 			builder.Services.AddOpenApi();
-
-			builder.Services.AddScoped<IGreetingService, Greetingservice>();
 
 			var app = builder.Build();
 

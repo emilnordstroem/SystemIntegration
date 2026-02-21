@@ -1,0 +1,6 @@
+@Lektion4SoenderhoejTaxi_HostAddress = http://localhost:5165
+
+GET {{Lektion4SoenderhoejTaxi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -5,9 +5,9 @@ namespace Lektion3WebAPI.Controllers
 {
 
 	[ApiController]
-    [Route("[controller]")]
+	[Route("[controller]")]
 	public class HelloController : ControllerBase
-    {
+	{
 		private readonly IGreetingService _greetingService;
 
 		public HelloController(IGreetingService greetingService)
@@ -15,11 +15,11 @@ namespace Lektion3WebAPI.Controllers
 			_greetingService = greetingService;
 		}
 
-        [HttpGet]
-        public string Get()
-        {
-            return "Hello from my first controller";
-        }
+		[HttpGet]
+		public string Get()
+		{
+			return "Hello from my first controller";
+		}
 
 		[HttpGet("{name}")]
 		public string Get(string name)
