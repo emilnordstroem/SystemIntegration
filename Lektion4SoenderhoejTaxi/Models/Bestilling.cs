@@ -2,13 +2,15 @@
 {
 	public class Bestilling
 	{
+		public int Id { get; set; }
 		public string Kunde { get; set; }
-		public string Adresse { get; set; }
+		public bool PriorityPickUp { get; set; }
+		public string Destination { get; set; }
 		public string Tidspunkt { get; set; }
 
-		public string Print()
+		public override string ToString()
 		{
-			return $"Taxa til {Kunde} på {Adresse} kl. {Tidspunkt}";
+			return PriorityPickUp ? $"PRIORITY PICKUP: Taxa til {Kunde} på {Destination} kl. {Tidspunkt}" : $"Taxa til {Kunde} på {Destination} kl. {Tidspunkt}";
 		}
 	}
 }

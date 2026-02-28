@@ -5,7 +5,7 @@ namespace Lektion4SoenderhoejTaxi.Models
 {
 	public class Publisher
 	{
-		public static async Task PublishBestilling(Bestilling bestilling)
+		public async void PublishBestilling(Bestilling bestilling)
 		{
 			var factory = new ConnectionFactory { HostName = "localhost" };
 			using var connection = await factory.CreateConnectionAsync();
@@ -16,7 +16,7 @@ namespace Lektion4SoenderhoejTaxi.Models
 				type: ExchangeType.Fanout // type of exchange
 			);
 
-			var message = bestilling.Print();
+			var message = bestilling.ToString();
 			var body = Encoding.UTF8.GetBytes(message);
 
 			await channel.BasicPublishAsync(
@@ -24,7 +24,7 @@ namespace Lektion4SoenderhoejTaxi.Models
 				routingKey: string.Empty, // default because its ignored using Fanout
 				body: body
 			);
-			Console.WriteLine($" [x] Sent {message}");
+			Console.WriteLine($" [x] Sent {message.ToString()}");
 
 			Console.WriteLine(" Press [enter] to exit.");
 			Console.ReadLine();
