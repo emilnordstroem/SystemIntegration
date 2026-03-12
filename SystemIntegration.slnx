@@ -11,4 +11,6 @@
   <Project Path="Lektion4RabbitMQSubscriber/Lektion4RabbitMQSubscriber.csproj" Id="e3294808-5ef2-480e-b877-5a4a8d33989f" />
   <Project Path="Lektion4SoenderhoejTaxi/Lektion4SoenderhoejTaxi.csproj" Id="2a36c9a1-73df-470b-abbc-375a405de3bd" />
   <Project Path="Lektion6HostedService/Lektion6HostedService.csproj" Id="fb2f3abb-a243-42b1-9071-0542b6a2a672" />
+  <Project Path="NotificationService/NotificationService.csproj" Id="68ae83bc-7f08-4782-bce2-ed047b84466b" />
+  <Project Path="OrderService/OrderService.csproj" Id="0dc4e759-8fc6-40ca-a392-4cbc0d6aa11c" />
 </Solution>
