@@ -1,0 +1,18 @@
+﻿@using Lektion12HttpClientPokemon.Models;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>
+        Pokemon overview
+    </h1>
+    @foreach (SpeciesDTO species in ViewBag.Pokemon)
+    {
+        <div>
+            <a href="@species.url">
+                @species.name
+            </a>
+        </div>
+    }
+</div>
